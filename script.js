@@ -28,7 +28,7 @@ const myCat=new Cat("Siamese");
 myCat.purr();
 myCat.makeSound();
 
-const myDog=new Dog("Golden Retrieve");
+const myDog=new Dog("Golden Retriever");
 
 myDog.bark();
 myDog.makeSound();
