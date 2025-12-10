@@ -24,15 +24,14 @@ class Cat extends Animal {
 }
 
 
-let cat=new Cat("Siamese");
+const myCat=new Cat("Siamese");
+myCat.purr();
+myCat.makeSound();
 
-cat.purr();
-cat.makeSound();
+const myDog=new Dog("Golden Retrieve");
 
-let dog=new Dog("Golden Retrieve");
-
-dog.bark();
-dog.makeSound();
+myDog.bark();
+myDog.makeSound();
 
 
 
